@@ -71,7 +71,7 @@ const LayoutBase = props => {
             <Hero {...props} />
         </>
         : null} */}
-      {fullWidth ? null : <PostHeader {...props} />}
+      {/* {fullWidth ? null : <PostHeader {...props} />} */}
     </header>
   )
 
