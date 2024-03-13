@@ -57,7 +57,7 @@ function BannerGroup(props) {
       {/* 动图 */}
       <Banner {...props} />
       {/* 导航分类 */}
-      <GroupMenu />
+      {/* <GroupMenu /> */}
     </div>
   )
 }
