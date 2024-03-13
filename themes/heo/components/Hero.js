@@ -258,7 +258,7 @@ function TopGroup(props) {
           )
         })}
       </div>
-      <TodayCard cRef={todayCardRef} siteInfo={siteInfo}/>
+      {/* <TodayCard cRef={todayCardRef} siteInfo={siteInfo}/> */}
     </div>
   )
 }
