@@ -19,7 +19,8 @@ import { useRouter } from 'next/router'
 import SearchNav from './components/SearchNav'
 import BlogPostArchive from './components/BlogPostArchive'
 import { ArticleLock } from './components/ArticleLock'
-import PostHeader from './components/PostHeader'
+// import PostHeader from './components/PostHeader'
+import PostHeader from '@/themes/hexo/components/PostHeader'
 import Comment from '@/components/Comment'
 import NotionPage from '@/components/NotionPage'
 import ArticleAdjacent from './components/ArticleAdjacent'
@@ -71,7 +72,7 @@ const LayoutBase = props => {
             <Hero {...props} />
         </>
         : null} */}
-      {/* {fullWidth ? null : <PostHeader {...props} />} */}
+      {fullWidth ? null : <PostHeader {...props} />}
     </header>
   )
 
