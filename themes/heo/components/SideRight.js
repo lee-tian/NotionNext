@@ -47,7 +47,7 @@ export default function SideRight(props) {
                 )}
 
                 {/* 联系交流群 */}
-                <TouchMeCard />
+                {/* <TouchMeCard /> */}
 
                 {/* 最新文章列表 */}
                 <div className={'border dark:border-gray-700 dark:bg-[#1e1e1e] dark:text-white rounded-xl lg:p-6 p-4 hidden lg:block bg-white'}>
