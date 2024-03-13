@@ -65,12 +65,12 @@ const LayoutBase = props => {
       <NavBar {...props} />
 
       {/* 通知横幅 */}
-      {router.route === '/'
+      {/* {router.route === '/'
         ? <>
             <NoticeBar />
             <Hero {...props} />
         </>
-        : null}
+        : null} */}
       {fullWidth ? null : <PostHeader {...props} />}
     </header>
   )
