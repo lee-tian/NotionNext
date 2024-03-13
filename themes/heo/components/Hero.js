@@ -31,13 +31,13 @@ const Hero = props => {
         }
       >
         {/* 左侧banner组 */}
-        <BannerGroup {...props} />
+        {/* <BannerGroup {...props} /> */}
 
         {/* 中间留白 */}
-        <div className='px-1.5 h-full'></div>
+        {/* <div className='px-1.5 h-full'></div> */}
 
         {/* 右侧置顶文章组 */}
-        <TopGroup {...props} />
+        {/* <TopGroup {...props} /> */}
       </div>
     </div>
   )
